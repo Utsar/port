@@ -4,6 +4,7 @@
 .navbarItems {
   display: flex;
   justify-content: space-between;
+  padding: 20px 40px;
 }
 .navbarItems :nth-child(1) a {
   text-decoration: none;
@@ -13,10 +14,16 @@
   padding-right: 0.5rem;
   margin-right: 0.5rem;
 }
-.navbarItems :nth-child(2) a {
-  text-decoration: underline;
+.navAbout {
   cursor: pointer;
+}
+.navbarItems :nth-child(2) a {
+  text-decoration: none;
   color: #bac4b8;
   padding-right: 0.5rem;
   margin-right: 0.5rem;
+}
+.navbarItems :nth-child(2) a div {
+  border: 1px solid #bac4b8;
+  pointer-events: none;
 }

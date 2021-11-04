@@ -1,0 +1,25 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.footerContainer :nth-child(1) {
+  text-decoration: none;
+  color: #bac4b8;
+}
+.footerLeft {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+}
+.footerLeft div {
+  margin-bottom: -8px;
+}
+.footerRight {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  text-align: right;
+}
+.footerRight div {
+  margin-bottom: -8px;
+}
