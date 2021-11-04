@@ -1,1 +1,22 @@
-
+.navbarContainer {
+  color: #bac4b8;
+}
+.navbarItems {
+  display: flex;
+  justify-content: space-between;
+}
+.navbarItems :nth-child(1) a {
+  text-decoration: none;
+  cursor: pointer;
+  border-right: solid 1px #bac4b8;
+  color: #bac4b8;
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+}
+.navbarItems :nth-child(2) a {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #bac4b8;
+  padding-right: 0.5rem;
+  margin-right: 0.5rem;
+}
