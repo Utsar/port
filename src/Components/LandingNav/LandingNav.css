@@ -8,11 +8,17 @@
 }
 .navbarItems :nth-child(1) a {
   text-decoration: none;
+  letter-spacing: -1px;
+  font-size: 22px;
   cursor: pointer;
   border-right: solid 1px #bac4b8;
   color: #bac4b8;
   padding-right: 0.5rem;
   margin-right: 0.5rem;
+}
+.navbarItems :nth-child(1) span {
+  position: absolute;
+  top: 24px;
 }
 .navAbout {
   cursor: pointer;
