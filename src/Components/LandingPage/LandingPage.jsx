@@ -1,16 +1,16 @@
 import React from "react";
+import Projects from "../../Projects/Projects";
 
 import LandingFooter from "../LandingFooter/LandingFooter";
 import LandingNav from "../LandingNav/LandingNav";
-import ScrollComponent from "../ScrollComponent/ScrollComponent";
+
 import "./LandingPage.css";
 
 const LandingPage = () => {
   return (
     <>
       <LandingNav />
-      <ScrollComponent />
-
+      <Projects />
       <LandingFooter />
     </>
   );
