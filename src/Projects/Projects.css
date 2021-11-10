@@ -17,6 +17,7 @@
   grid-auto-columns: minmax(50px, 1fr);
   overflow-x: scroll;
   scroll-snap-type: x infinite;
+  scroll-behavior: smooth;
 }
 
 .hs:before,
