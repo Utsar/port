@@ -7,15 +7,15 @@ const LandingNav = () => {
       <div className="navbarContainer">
         <div className="navbarItems">
           <div>
-            <a href="#">KRISTIAN</a>
+            <a href="https://www.kristianutsar.com">KRISTIAN</a>
             <span>Portfolio</span>
           </div>
-          <div className="navAbout">
+          {/* <div className="navAbout">
             <a href="#">
               About
               <div></div>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

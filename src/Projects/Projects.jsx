@@ -3,6 +3,7 @@ import "./Projects.css";
 import picture3 from "../Assets/whatsapp.PNG";
 import picture2 from "../Assets/ge.PNG";
 import picture1 from "../Assets/photo.jpg";
+import tesla from "../Assets/tesla.PNG";
 
 const Projects = () => {
   const handleClick1 = (e) => {
@@ -16,6 +17,10 @@ const Projects = () => {
       "_blank"
     );
   };
+  const handleClick3 = (e) => {
+    e.preventDefault();
+    window.open("https://tesla-clone-woad.vercel.app/", "_blank");
+  };
 
   return (
     <>
@@ -23,13 +28,21 @@ const Projects = () => {
         <div class="projectContainer">
           <ul class="hs no-scrollbar">
             <li class="item">
-              <img src={picture2} alt="picture" onClick={handleClick1}></img>
+              <img
+                src={picture2}
+                alt="global-event"
+                onClick={handleClick1}
+              ></img>
             </li>
             <li class="item">
-              <img src={picture3} alt="picture" onClick={handleClick2}></img>
+              <img
+                src={picture3}
+                alt="whatsapp-clone"
+                onClick={handleClick2}
+              ></img>
             </li>
             <li class="item">
-              <img src={picture1} alt="picture"></img>
+              <img src={tesla} alt="tesla-clone" onClick={handleClick3}></img>
             </li>
             <li class="item">
               <img src={picture1} alt="picture"></img>
