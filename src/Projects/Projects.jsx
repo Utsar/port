@@ -4,6 +4,7 @@ import picture3 from "../Assets/whatsapp.PNG";
 import picture2 from "../Assets/ge.PNG";
 import picture1 from "../Assets/photo.jpg";
 import tesla from "../Assets/tesla.PNG";
+import social from "../Assets/social-app.png";
 
 const Projects = () => {
   const handleClick1 = (e) => {
@@ -20,6 +21,10 @@ const Projects = () => {
   const handleClick3 = (e) => {
     e.preventDefault();
     window.open("https://tesla-clone-woad.vercel.app/", "_blank");
+  };
+  const handleClick4 = (e) => {
+    e.preventDefault();
+    window.open("https://utsar-social.vercel.app/", "_blank");
   };
 
   return (
@@ -43,6 +48,9 @@ const Projects = () => {
             </li>
             <li class="item">
               <img src={tesla} alt="tesla-clone" onClick={handleClick3}></img>
+            </li>
+            <li class="item">
+              <img src={social} alt="tesla-clone" onClick={handleClick4}></img>
             </li>
             <li class="item">
               <img src={picture1} alt="picture"></img>

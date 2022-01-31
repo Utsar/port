@@ -16,10 +16,17 @@ const LandingFooter = () => {
             <a href="mailto:utsaru@gmail.com">EMAIL</a>
           </div>
           <div>
-            <a href="https://www.linkedin.com/in/kristianutsar/">LINKEDIN</a>
+            <a
+              href="https://www.linkedin.com/in/kristianutsar/"
+              target="_blank"
+            >
+              LINKEDIN
+            </a>
           </div>
           <div>
-            <a href="https://github.com/Utsar">GITHUB</a>
+            <a href="https://github.com/Utsar" target="_blank">
+              GITHUB
+            </a>
           </div>
         </div>
       </div>
