@@ -19,12 +19,17 @@ const LandingFooter = () => {
             <a
               href="https://www.linkedin.com/in/kristianutsar/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               LINKEDIN
             </a>
           </div>
           <div>
-            <a href="https://github.com/Utsar" target="_blank">
+            <a
+              href="https://github.com/Utsar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               GITHUB
             </a>
           </div>

@@ -53,19 +53,19 @@ const Projects = () => {
               <img src={social} alt="tesla-clone" onClick={handleClick4}></img>
             </li>
             <li class="item">
-              <img src={picture1} alt="picture"></img>
+              <img src={picture1} alt="work in progress"></img>
             </li>
             <li class="item">
-              <img src={picture1} alt="picture"></img>
+              <img src={picture1} alt="work in progress"></img>
             </li>
             <li class="item">
-              <img src={picture1} alt="picture"></img>
+              <img src={picture1} alt="work in progress"></img>
             </li>
             <li class="item">
-              <img src={picture1} alt="picture"></img>
+              <img src={picture1} alt="work in progress"></img>
             </li>
             <li class="item">
-              <img src={picture1} alt="picture"></img>
+              <img src={picture1} alt="work in progress"></img>
             </li>
           </ul>
         </div>
