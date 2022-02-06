@@ -6,7 +6,7 @@ const LandingNav = () => {
     <>
       <div className="navbarContainer">
         <div className="navbarItems">
-          <div>
+          <div className="navName">
             <a href="https://www.kristianutsar.com">KRISTIAN</a>
             <span>Portfolio</span>
           </div>

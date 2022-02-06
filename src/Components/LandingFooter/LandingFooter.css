@@ -11,8 +11,28 @@
   bottom: 40px;
   left: 40px;
 }
-.footerLeft div {
-  margin-bottom: -8px;
+.footerLeftItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.footerLeftBreak {
+  border: 1px solid #bac4b8;
+  width: 30px;
+  transition: all 0.5s ease-in-out;
+}
+.footerLeft:hover .footerLeftBreak {
+  transform: translate(-70px);
+}
+.footerLeftBreak1 {
+  border: 1px solid #bac4b8;
+  margin-top: -2px;
+  width: 30px;
+  transition: all 0.5s ease-in-out;
+}
+.footerLeft:hover .footerLeftBreak1 {
+  transform: translate(70px);
 }
 .footerRight {
   position: absolute;
@@ -21,5 +41,5 @@
   text-align: right;
 }
 .footerRight div {
-  margin-bottom: -8px;
+  margin-bottom: -7px;
 }

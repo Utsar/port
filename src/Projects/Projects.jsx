@@ -52,19 +52,19 @@ const Projects = () => {
             <li class="item">
               <img src={social} alt="tesla-clone" onClick={handleClick4}></img>
             </li>
-            <li class="item">
+            <li class="item" style={{ cursor: "not-allowed" }}>
               <img src={picture1} alt="work in progress"></img>
             </li>
-            <li class="item">
+            <li class="item" style={{ cursor: "not-allowed" }}>
               <img src={picture1} alt="work in progress"></img>
             </li>
-            <li class="item">
+            <li class="item" style={{ cursor: "not-allowed" }}>
               <img src={picture1} alt="work in progress"></img>
             </li>
-            <li class="item">
+            <li class="item" style={{ cursor: "not-allowed" }}>
               <img src={picture1} alt="work in progress"></img>
             </li>
-            <li class="item">
+            <li class="item" style={{ cursor: "not-allowed" }}>
               <img src={picture1} alt="work in progress"></img>
             </li>
           </ul>
