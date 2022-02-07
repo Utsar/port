@@ -11,7 +11,7 @@
 .hs {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1700px;
+  grid-template-columns: 1500px;
   grid-template-rows: minmax(300px, 2fr);
   grid-auto-flow: column;
   grid-auto-columns: minmax(50px, 1fr);
@@ -21,6 +21,12 @@
 
   cursor: pointer;
 }
+@media screen and (max-width: 1400px) {
+  .hs {
+    grid-template-columns: 1100px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .hs {
     grid-template-columns: 900px;
@@ -50,7 +56,7 @@
 .hs:before,
 .hs:after {
   content: "";
-  width: 1600px;
+  width: 1300px;
 }
 
 @media screen and (max-width: 1200px) {
