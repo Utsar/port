@@ -30,7 +30,7 @@ const Projects = () => {
   // };
   const handleClick5 = (e) => {
     e.preventDefault();
-    window.open("https://shop-utsar.vercel.app/", "_blank");
+    window.open("https://hulu-utsar.vercel.app/", "_blank");
   };
   const handleClick6 = (e) => {
     e.preventDefault();
