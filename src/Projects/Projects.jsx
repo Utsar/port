@@ -9,6 +9,7 @@ import hulu from "../Assets/hulu.png";
 import shop from "../Assets/shop.png";
 
 const Projects = () => {
+  // global event
   const handleClick1 = (e) => {
     e.preventDefault();
     window.open("https://global-event.vercel.app/", "_blank");
@@ -20,6 +21,7 @@ const Projects = () => {
   //     "_blank"
   //   );
   // };
+  // tesla clone
   const handleClick3 = (e) => {
     e.preventDefault();
     window.open("https://tesla-clone-woad.vercel.app/", "_blank");
@@ -28,10 +30,12 @@ const Projects = () => {
   //   e.preventDefault();
   //   window.open("https://utsar-social.vercel.app/", "_blank");
   // };
+  // hulu clone
   const handleClick5 = (e) => {
     e.preventDefault();
     window.open("https://hulu-utsar.vercel.app/", "_blank");
   };
+  // shop project
   const handleClick6 = (e) => {
     e.preventDefault();
     window.open("https://shop-utsar.vercel.app/", "_blank");
