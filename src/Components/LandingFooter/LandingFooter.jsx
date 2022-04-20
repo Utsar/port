@@ -1,4 +1,3 @@
-import { faFontAwesome } from "@fortawesome/free-regular-svg-icons";
 import React from "react";
 import "./LandingFooter.css";
 
@@ -25,7 +24,7 @@ const LandingFooter = () => {
               className="footerRightLinkedIn"
               href="https://www.linkedin.com/in/kristianutsar/"
               target="_blank"
-              rel="noopener noreferrer"
+              // rel="noopener noreferrer"
             >
               LINKEDIN
             </a>
@@ -35,7 +34,7 @@ const LandingFooter = () => {
               className="footerRightGithub"
               href="https://github.com/Utsar"
               target="_blank"
-              rel="noopener noreferrer"
+              // rel="noopener noreferrer"
             >
               GITHUB
             </a>

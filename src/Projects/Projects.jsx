@@ -44,18 +44,18 @@ const Projects = () => {
   return (
     <>
       <div className="projectsWrapper">
-        <div class="projectContainer">
-          <ul class="hs no-scrollbar">
+        <div className="projectContainer">
+          <ul className="hs no-scrollbar">
             {/* tesla clone project */}
-            <li class="item">
+            <li className="item">
               <img src={tesla} alt="tesla-clone" onClick={handleClick3}></img>
             </li>
             {/* Shop project */}
-            <li class="item">
+            <li className="item">
               <img src={shop} alt="shop project" onClick={handleClick6}></img>
             </li>
             {/* global event project */}
-            <li class="item">
+            <li className="item">
               <img
                 src={picture2}
                 alt="global-event"
@@ -63,11 +63,11 @@ const Projects = () => {
               ></img>
             </li>
             {/* Hulu clone project */}
-            <li class="item">
+            <li className="item">
               <img src={hulu} alt="hulu project" onClick={handleClick5}></img>
             </li>
             {/* whatsapp clone project */}
-            <li class="item" style={{ cursor: "not-allowed" }}>
+            <li className="item" style={{ cursor: "not-allowed" }}>
               <img
                 src={picture3}
                 alt="whatsapp-clone"
@@ -75,20 +75,20 @@ const Projects = () => {
               ></img>
             </li>
             {/* social-app project */}
-            <li class="item" style={{ cursor: "not-allowed" }}>
+            <li className="item" style={{ cursor: "not-allowed" }}>
               <img
                 src={social}
                 alt="social-app project"
                 // onClick={handleClick4}
               ></img>
             </li>
-            <li class="item" style={{ cursor: "not-allowed" }}>
+            <li className="item" style={{ cursor: "not-allowed" }}>
               <img src={picture1} alt="work in progress"></img>
             </li>
-            <li class="item" style={{ cursor: "not-allowed" }}>
+            <li className="item" style={{ cursor: "not-allowed" }}>
               <img src={picture1} alt="work in progress"></img>
             </li>
-            <li class="item" style={{ cursor: "not-allowed" }}>
+            <li className="item" style={{ cursor: "not-allowed" }}>
               <img src={picture1} alt="work in progress"></img>
             </li>
           </ul>
