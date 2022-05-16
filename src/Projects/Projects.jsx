@@ -7,6 +7,7 @@ import tesla from "../Assets/tesla.PNG";
 import social from "../Assets/social-app.png";
 import hulu from "../Assets/hulu.png";
 import shop from "../Assets/shop.png";
+import realEstate from "../Assets/real-estate.png";
 
 const Projects = () => {
   // global event
@@ -26,10 +27,11 @@ const Projects = () => {
     e.preventDefault();
     window.open("https://tesla-clone-woad.vercel.app/", "_blank");
   };
-  // const handleClick4 = (e) => {
-  //   e.preventDefault();
-  //   window.open("https://utsar-social.vercel.app/", "_blank");
-  // };
+  // real-estate
+  const handleClick4 = (e) => {
+    e.preventDefault();
+    window.open("https://real-estate-utsar.vercel.app/", "_blank");
+  };
   // hulu clone
   const handleClick5 = (e) => {
     e.preventDefault();
@@ -46,6 +48,14 @@ const Projects = () => {
       <div className="projectsWrapper">
         <div className="projectContainer">
           <ul className="hs no-scrollbar">
+            {/* real-estate project */}
+            <li className="item">
+              <img
+                src={realEstate}
+                alt="real-estate"
+                onClick={handleClick4}
+              ></img>
+            </li>
             {/* tesla clone project */}
             <li className="item">
               <img src={tesla} alt="tesla-clone" onClick={handleClick3}></img>
